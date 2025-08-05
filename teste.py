@@ -1,4 +1,4 @@
-def caucular_imc(peso, altura):
+def calcular_imc(peso, altura):
   imc = peso / (altura ** 2)
   return imc
 def classificar_imc(imc):
@@ -23,4 +23,4 @@ imc = calcular_imc(peso, altura)
 classificacao = classificar_imc(imc)
 
 print(f"Seu IMC é:  {imc:.2f}")
-print(f"Classificação:  {classificacao}"
+print(f"Classificação:  {classificacao}")
